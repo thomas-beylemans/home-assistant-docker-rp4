@@ -5,6 +5,7 @@
 
 ## 2. Installation de Docker sur Raspberry Pi 4
 [https://www.raspberrypi-france.fr/installer-docker-sur-raspberry-pi/](https://www.raspberrypi-france.fr/installer-docker-sur-raspberry-pi/)
+[https://www.framboise314.fr/installer-docker-sur-raspberry-pi/](https://www.framboise314.fr/installer-docker-sur-raspberry-pi/)
 
 ## 3. Installation de Home Assistant dans un container Docker
 
