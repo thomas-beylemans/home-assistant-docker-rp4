@@ -21,6 +21,8 @@ On cherche le p'tit nom du hardware qu'on souhaite exposer au container. Ici, il
 ls -l /dev/serial/by-id/
 ```
 
+> :information_source: On peut aussi avoir la liste des périphériques USB avec la commande `lsusb`, voire même avec `lsusb -s BUS_NUMBER:DEVICE_NUMBER -v` pour avoir plus d'infos.
+
 On crée le fichier docker-compose.yml, et on personalise le chemin vers le fichier de configuration de Home Assistant, le fuseau horaire, et le nom du hardware USB.
 
 ```yaml
@@ -69,3 +71,10 @@ docker restart homeassistant
 ```bash
 docker stop homeassistant
 ```
+
+## 4. Accès à Home Assistant
+
+- home : [http://IP_DE_VOTRE_RASPBERRY:8123](http://IP_DE_VOTRE_RASPBERRY:8123)
+
+- config : [http://IP_DE_VOTRE_RASPBERRY:8123/config](http://IP_DE_VOTRE_RASPBERRY:8123/config)
+
